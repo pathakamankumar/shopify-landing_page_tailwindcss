@@ -6,9 +6,9 @@ import Support from './Component/support'
 function App() {
   return (
     <>
+      <Support/>
       <GrowBusiness />
       <Footer/>
-      <Support/>
     </>
   );
 }
