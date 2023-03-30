@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* /////////////////////////////////Start Slick Slider////////////////////////////////////////// */
 /* .slick-arrow{
   color: green;
 } */
@@ -30,3 +31,44 @@
 .slick-dots{
   display: none !important;
 }
+
+/* /////////////////////////////////End Slick Slider////////////////////////////////////////// */
+
+
+/* /////////////////////// Start Marquee (Free Trial Section) /////////////////////////// */
+
+.marquee{
+  animation-duration: 30s;
+}
+
+.marquee {
+    transform: translate3d(0%, 0, 0);
+    animation-name: marquee;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* .innerContainer:hover .marquee {
+    animation-play-state: paused !important;
+} */
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.bg-gradient-marquee {
+  background-image: linear-gradient(86deg,#89ffbf 10.26%,#a4fa84 53.53%,#b3a7ff 100%);
+}
+.meetPeopleBg{
+  background-image: linear-gradient(86deg,#89ffbf33 10.26%,#a4fa846e 53.53%,#b3a7ff47 100%);
+}
+.mo-shopify{
+  background-image: linear-gradient(106.94deg,#15c064 28.5%,#00d1ff 91.82%);
+}
+/* /////////////////////// End Marquee (Free Trial Section) /////////////////////////// */
