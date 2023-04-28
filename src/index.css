@@ -28,10 +28,25 @@
   color: black !important;
   font-size: 50px !important;
 }
-.slick-dots{
-  display: none !important;
+.onlineStore .slick-dots li{
+  width: 30%;
 }
-
+.onlineStore .slick-arrow.slick-next{
+}
+.onlineStore .slick-prev:before, .slick-next:before{
+  display: none !important;
+  
+}
+.onlineStore .slick-dots li button:before{
+  content: '-' !important;
+  background-color: #ccc;
+  width: 100% !important;
+  height: 2px !important;
+  transition: all;
+}
+.onlineStore .slick-dots li.slick-active button:before{
+  background-color: rgb(0, 255, 238) !important;
+}
 /* /////////////////////////////////End Slick Slider////////////////////////////////////////// */
 
 
