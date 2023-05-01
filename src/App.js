@@ -8,13 +8,23 @@ import BusinessOperation from './Component/businessOperation';
 import CommerceCommunity from './Component/commerceCommunity';
 import OnlineStore from './Component/onlineStore';
 import SalesChannel from './Component/salesChannel';
+import ReliableCheckout from './Component/reliableCheckout';
+import PointSale from './Component/pointSale';
+import MarketingTools from './Component/marketingTools';
+import GloveSection from './Component/glovSection';
+import GlobalCommerce from './Component/globalCommerce';
 
 function App() {
   return (
     <>
+    <GlobalCommerce/>
+      <GloveSection />
       <CommerceCommunity />
       <OnlineStore />
-      <SalesChannel/>
+      <SalesChannel />
+      <ReliableCheckout />
+      <PointSale />
+      <MarketingTools />
       <BusinessOperation />
       <FreeTrial />
       <Testimonial />
